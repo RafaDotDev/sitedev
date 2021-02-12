@@ -5,8 +5,26 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Parallax Template - Materialize</title>
+
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+        <link
+          href="../styles/materialize.css"
+          type="text/css"
+          rel="stylesheet"
+          media="screen,projection"
+        />
+        <link
+          href="../styles/style.css"
+          type="text/css"
+          rel="stylesheet"
+          media="screen,projection"
+        />
       </Head>
 
       <main className={styles.main}>
