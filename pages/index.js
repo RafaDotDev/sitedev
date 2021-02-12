@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to the jungle!!</h1>
+        <h1 className={styles.title}>Rafael, welcome to the jungle!!</h1>
       </main>
     </div>
   );
